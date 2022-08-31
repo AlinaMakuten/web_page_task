@@ -1,0 +1,243 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    background-color: #F5FFFA;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    text-align: center;
+    display: block;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 1.2em;
+    background-color: white;
+    border-radius: 0.2rem;
+    color: grey;
+    position: sticky;
+    top: 0; 
+}
+
+header .logo:active {
+    background-color: rgb(197, 155, 18);
+}
+ 
+header #logo-mobile{
+    display: none;
+}
+.nav  {
+    font-size: 1.6em;
+    text-decoration: none;
+    padding: 1.5em;;
+    margin: 0px 0px 0px 0px;
+}
+
+.nav a {
+    color: rgb(224, 180, 33);
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(90, 11, 11);
+}
+
+.photo-js img{
+    max-width: 100%;
+    border-radius: 0.2rem;    
+}
+
+#scompany {
+   
+    box-sizing: border-box;
+    display: block;
+}
+#company h1 {
+    font-size: 40px;
+    color: rgb(224, 180, 33);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#company .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+
+}
+#company img {
+
+    max-width: 50%;
+    max-height: 180px;
+    margin: 20px 20px 20px 20px;
+    padding-top: 10px;
+    display: inline;   
+}
+#company .about p {
+    color: rgb(88, 88, 88);
+    flex-direction: column;
+    margin-right: 30px;
+    
+    font-size: 20px;
+}
+
+#p-mobile{
+    display: none;
+}
+
+#products {
+    box-sizing: border-box;
+    display: block;
+}
+
+#products h1 {
+    font-size: 40px;
+    color: rgb(224, 180, 33);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.slideshow-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+#products-mobile {
+    display: none;
+}
+
+.slideshow-container > div {
+    flex-direction: column;
+    background-color: rgb(224, 228, 228);
+    padding: 10px;
+    width: 30%;
+    max-height: 350px;
+    margin: 10px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 18px;
+    border-radius: 0.2rem;
+    border-style: ridge;
+}
+
+.slideshow-container img {
+    max-width: 100%;
+    max-height: 90%;
+}
+
+.slideshow-container p {
+    color: brown;
+    } 
+
+#service {   
+    box-sizing: border-box;
+    display: block;   
+}
+
+#service h1 {
+    font-size: 40px;
+    color: rgb(224, 180, 33);
+    margin-top: 60px;
+    margin-bottom: 60px;  
+}
+
+#service .block-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+}
+
+#service img {
+
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px 120px 20px 120px;
+    display: inline;     
+}
+
+#service ul {
+    color: rgb(88, 88, 88);
+    list-style-type: square;
+    font-size: 30px;
+    list-style-position: inside;
+    text-align: left;
+   
+
+}
+
+#service-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+#service-link:visited {
+    color: rgb(34, 32, 32);
+}
+
+#contact {
+    box-sizing: border-box;
+    display: block;   
+}
+
+#contact .adress p:first-child {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+#contact h1 {
+    font-size: 40px;
+    color: rgb(224, 180, 33);   
+}
+
+#contact .block-contacts {
+    color: rgb(88, 88, 88);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(224, 228, 228);
+    padding: 16px;
+    font-family: cursive;
+}
+
+#contact .adress {
+    padding-top: 60px;
+}
+
+#contact .phone {
+    padding-top: 80px;
+}
+
+#contact .form-contact {
+    padding: 2px;
+    margin: 2px;
+}
+
+#contact legend {
+    font-size: larger;
+}
+
+#contact .form-contact:hover {
+    background-color: red;
+}
+
+
+
+
+
+
+
