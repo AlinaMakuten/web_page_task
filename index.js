@@ -8,7 +8,6 @@ function validateForm() {
 
 
 
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
